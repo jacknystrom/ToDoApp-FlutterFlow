@@ -1,0 +1,22 @@
+{
+  "title": {
+    "type": "string",
+    "description": "The title of the item."
+  },
+  "completed": {
+    "type": "boolean",
+    "description": "Indicates if the task is completed."
+  },
+  "created": {
+    "type": "timestamp",
+    "description": "The creation date and time of the item."
+  },
+  "details": {
+    "type": "string",
+    "description": "Additional details about the item."
+  },
+  "user": {
+    "type": "string",
+    "description": "The user identifier, typically in URL or user ID format."
+  }
+}
